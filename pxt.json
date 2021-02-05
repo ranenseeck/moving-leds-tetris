@@ -1,0 +1,23 @@
+{
+    "name": "Moving LEDs (tetris)",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-max7219_8x8": "github:alankrantas/pxt-max7219_8x8#v0.0.3",
+        "microbit-GY521": "github:pauldfoster/pxt-microbit-gy521#v0.0.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}

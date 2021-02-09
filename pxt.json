@@ -1,5 +1,5 @@
 {
-    "name": "Moving LEDs (tetris)",
+    "name": "Tetris my mymusicone",
     "description": "",
     "dependencies": {
         "core": "*",

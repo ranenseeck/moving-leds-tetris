@@ -45,6 +45,147 @@ music.playTone(392, music.beat(BeatFraction.Whole))
 music.playTone(494, music.beat(BeatFraction.Whole))
 basic.pause(200)
 basic.showString("TETRIS")
+basic.showLeds(`
+    # . . . .
+    # . . . .
+    # # . . .
+    . . . . .
+    . . . . .
+    `)
+basic.showLeds(`
+    . . . . .
+    # . . . .
+    # . . . .
+    # # . . .
+    . . . . .
+    `)
+basic.showLeds(`
+    . . . . .
+    . . . . .
+    # . . . .
+    # . . . .
+    # # . . .
+    `)
+basic.showLeds(`
+    . . # # #
+    . . . . .
+    # . . . .
+    # . . . .
+    # # . . .
+    `)
+basic.showLeds(`
+    . . . . .
+    . . # # #
+    # . . . .
+    # . . . .
+    # # . . .
+    `)
+basic.showLeds(`
+    . . . . .
+    . . . . .
+    # . # # #
+    # . . . .
+    # # . . .
+    `)
+basic.showLeds(`
+    . . . . .
+    . . . . .
+    # . # # #
+    # . . . .
+    # # . . .
+    `)
+basic.showLeds(`
+    . . . . .
+    . . # . .
+    # . . # #
+    # . . . .
+    # # . . .
+    `)
+basic.showLeds(`
+    . . . . .
+    . . . # .
+    # . . # .
+    # . . # .
+    # # . . .
+    `)
+basic.showLeds(`
+    . . . . .
+    . . . . .
+    # . . . #
+    # . . . #
+    # # . . #
+    `)
+basic.showLeds(`
+    . . # # .
+    . . # # .
+    # . . . #
+    # . . . #
+    # # . . #
+    `)
+basic.showLeds(`
+    . . . . .
+    . . # # .
+    # . # # #
+    # . . . #
+    # # . . #
+    `)
+basic.showLeds(`
+    . . . . .
+    . . . . .
+    # . # # #
+    # . # # #
+    # # . . #
+    `)
+basic.showLeds(`
+    . . . . .
+    . . . . .
+    # . . . #
+    # . # # #
+    # # # # #
+    `)
+basic.showLeds(`
+    . # # # .
+    . # . . .
+    # . . . #
+    # . # # #
+    # # # # #
+    `)
+basic.showLeds(`
+    . . . . .
+    . # # # .
+    # # . . #
+    # . # # #
+    # # # # #
+    `)
+basic.showLeds(`
+    . . . . .
+    . . . . .
+    # # # # #
+    # # # # #
+    # # # # #
+    `)
+basic.showLeds(`
+    # # # . .
+    . . . . .
+    # # # # #
+    # # # # #
+    # # # # #
+    `)
+basic.showLeds(`
+    . # # # .
+    # # # # .
+    # # # # #
+    # # # # #
+    # # # # #
+    `)
+basic.showLeds(`
+    # # # # #
+    # # # # #
+    # # # # #
+    # # # # #
+    # # # # #
+    `)
+basic.showString("GOO")
 sprite = game.createSprite(0, 0)
 y_variable += 1
 led.plot(2, 0)
